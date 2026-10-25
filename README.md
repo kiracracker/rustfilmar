@@ -38,18 +38,19 @@ Prerequisites
 Installation
 
 Clone the repository:
-
+```bash
 git clone https://github.com/kiracracker/rustfilmar.git
 cd rustfilmar
-
+```
 Configure your TMDB API token in the source code, then run:
 
+```bash
 cargo run
-
+```
 To build an optimized version:
-
+```bash
 cargo build --release
-
+```
 Project Status
 
 This project is a work in progress.
